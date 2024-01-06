@@ -6,7 +6,6 @@ let isReady = false;
 let contentsLoaded = 0;
 let totalContents = 0;
 let contentArray = [];
-let isInitiallyLoaded = false;
 
 function contentLoaded() {
   contentsLoaded++;

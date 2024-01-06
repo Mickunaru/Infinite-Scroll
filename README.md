@@ -1,39 +1,37 @@
 # Description
 
-  Introducing the Infinite Scroll Web App, a dynamic application seamlessly integrated with the Unsplash API. This user-friendly platform offers an infinite scrolling experience, presenting users with a continuous stream of high-quality, random images.
+Introducing the Infinite Scroll Web App, a dynamic application seamlessly integrated with the Unsplash API. This user-friendly platform offers an infinite scrolling experience, presenting users with a continuous stream of high-quality, random images.
 
 # Getting Started
 
-To run this NOW, just click on the following link: [https://mickunaru.github.io/Infinite-Scroll/]
-
 To run this web app locally, follow these steps:
 
-  Clone the Repository:
+Clone the Repository:
 
-    git clone https://github.com/Mickunaru/Infinite-Scroll.git
-    cd your-repository
+    $ git clone https://github.com/Mickunaru/Infinite-Scroll.git
+    $ cd Infinite-Scroll
 
-  Install Dependencies:
+Install Dependencies:
 
-    npm install
+    $ npm install
 
-  Set Up Unsplash API Key:
+Set Up Unsplash API Key:
 
-  Obtain your Unsplash API key by creating a developer account on Unsplash.
-  Copy your API ACCESS KEY.
+Obtain your Unsplash API key by creating a developer account on Unsplash.
+Copy your API ACCESS KEY.
 
-  Create a .env file in the project root (a sample.env is provided as an example):
+Create a .env file in the project root (a sample.env is provided as an example):
 
-    touch .env
+    $ touch .env
 
-  Open the .env file and add your Unsplash API key:
+Open the .env file and add your Unsplash API key:
 
     API_ACCESS_KEY=YOUR-API-ACCESS-KEY
 
-  Run the Server:
+Run the Server:
 
-    nodemon server.js
+    $ nodemon server.js
 
-  Run the Client:
+Run the Client:
 
-  You can use a development server to run the client-side code. For example, you can use live-server.
+You can use a development server to run the client-side code. To make things easy, simply use the live-server extension and click on "Go Live" on the bottom right of VS Code.
